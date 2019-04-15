@@ -1,6 +1,6 @@
 public class MakeHippo {
-    public static void main(String [] args){
-        Hippo h = new Hippo("Баффи");
-        System.out.println(h.getName());
+    public static void main(String [] args){ //точка запуска
+        Hippo h = new Hippo("Бегемотик - Мотик ");//создаем бегемотика , передаем его конструктору имени бегемотик
+        System.out.println(h.getName());//вызываем метод getName() унаследованный классом бегемотик
     }
 }
